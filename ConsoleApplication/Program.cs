@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using HelperFunctions;
+using static Exercises.Exercises;
+
+// Display<bool>.DisplaySingleResult(UniqueOccurrences(TestCases.UniqueOccurrences_Test2));
+Display<bool>.DisplaySingleResult(UniqueOccurrences_Linq(TestCases.UniqueOccurrences_Test2));
