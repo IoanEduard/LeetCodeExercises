@@ -3,8 +3,8 @@ Warm-up:
 💩 
 💪
 
-1. 👀 https://leetcode.com/problems/unique-number-of-occurrences/
-2. https://leetcode.com/problems/intersection-of-two-arrays/
+1. 💪 https://leetcode.com/problems/unique-number-of-occurrences/
+2. 💪 https://leetcode.com/problems/intersection-of-two-arrays/
 3. https://leetcode.com/problems/next-greater-element-i/
 4. https://leetcode.com/problems/teemo-attacking/
 5. https://leetcode.com/problems/max-consecutive-ones/
