@@ -7,6 +7,9 @@ using static Exercises.Exercises;
 // Display<int>.DisplayCollection(Intersection_2(TestCases.Intersection_TestCase1_Input1, TestCases.Intersection_TestCase1_Input2));
 // Display<int>.DisplayCollection(Intersection_2(TestCases.Intersection_TestCase2_Input1, TestCases.Intersection_TestCase2_Input2));
 
-Display<int>.DisplayCollection(NextGreaterElement(TestCases.NextGreaterElement_TestCase1_Input1, TestCases.NextGreaterElement_TestCase1_Input2));
-Display<int>.DisplayCollection(NextGreaterElement(TestCases.NextGreaterElement_TestCase2_Input1, TestCases.NextGreaterElement_TestCase2_Input2));
-Display<int>.DisplayCollection(NextGreaterElement(TestCases.NextGreaterElement_TestCase3_Input1, TestCases.NextGreaterElement_TestCase3_Input2));
+// Display<int>.DisplayCollection(NextGreaterElement(TestCases.NextGreaterElement_TestCase1_Input1, TestCases.NextGreaterElement_TestCase1_Input2));
+// Display<int>.DisplayCollection(NextGreaterElement(TestCases.NextGreaterElement_TestCase2_Input1, TestCases.NextGreaterElement_TestCase2_Input2));
+// Display<int>.DisplayCollection(NextGreaterElement(TestCases.NextGreaterElement_TestCase3_Input1, TestCases.NextGreaterElement_TestCase3_Input2));
+
+Display<int>.DisplaySingleResult(FindMaxConsecutiveOnes_1(TestCases.FindMaxConsecutiveOnes_TestCase1));
+Display<int>.DisplaySingleResult(FindMaxConsecutiveOnes_1(TestCases.FindMaxConsecutiveOnes_TestCase2));

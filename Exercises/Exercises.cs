@@ -103,5 +103,54 @@ namespace Exercises
 
             return result.ToArray();
         }
+
+
+        public static int FindMaxConsecutiveOnes(int[] nums)
+        {
+            // 💩💩💩💩💩💩💩💩💩💩💩💩
+            var result = 0;
+            var count = 1;
+
+            for (var i = 0; i < nums.Length - 1; i++)
+            {
+                if (nums[i] == nums[i + 1])
+                {
+                    count++;
+                }
+                else
+                {
+                    count = 1;
+                }
+
+                if (count > result)
+                {
+                    result = count;
+                }
+            }
+
+            return result;
+        }
+
+        public static int FindMaxConsecutiveOnes_1(int[] nums)
+        {
+            var resultCount = 0;
+            var currentCount = 0;
+
+            for (var i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 1)
+                {
+                    currentCount++;
+                }
+                else
+                {
+                    currentCount = 0;
+                }
+
+                if(currentCount > resultCount) resultCount = currentCount;
+            }
+
+            return resultCount;
+        }
     }
 }

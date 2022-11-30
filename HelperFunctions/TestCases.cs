@@ -18,5 +18,9 @@ namespace HelperFunctions
         public static int[] NextGreaterElement_TestCase3_Input1 = new int[] { 1, 3, 5, 2, 4 };
         public static int[] NextGreaterElement_TestCase3_Input2 = new int[] { 6, 5, 4, 3, 2, 1, 7 };
 
+        public static int[] FindMaxConsecutiveOnes_TestCase1 = new int[] { 1, 1, 0, 1, 1, 1 };
+        public static int[] FindMaxConsecutiveOnes_TestCase2 = new int[] { 1, 0, 1, 1, 0, 1 };
+
+
     }
 }
