@@ -147,10 +147,60 @@ namespace Exercises
                     currentCount = 0;
                 }
 
-                if(currentCount > resultCount) resultCount = currentCount;
+                if (currentCount > resultCount) resultCount = currentCount;
             }
 
             return resultCount;
+        }
+
+        public static int Search(int[] nums, int target)
+        {
+            var result = BinarySearchLoop(nums, target, 0, nums.Length - 1);
+
+            return result;
+        }
+
+        private static int BinarySearch(int[] nums, int target, int left, int right)
+        {
+            // 💩💩💩💩💩💩💩💩💩💩💩💩 C# no tail recursion
+            if (left >= right)
+            {
+                return -1;
+            }
+            else
+            {
+                var mid = (left + right) / 2;
+
+                if (nums[mid] == target)
+                {
+                    return mid;
+                }
+                else if (nums[mid] < target)
+                {
+                    return BinarySearch(nums, target, mid + 1, right);
+                }
+                else
+                {
+                    return BinarySearch(nums, target, left, mid + 1);
+                }
+            }
+        }
+
+        private static int BinarySearchLoop(int[] nums, int target, int left, int right)
+        {
+            while (left <= right)
+            {
+                var mid = (int)Math.Floor((double)(left + right) / 2);
+
+                if (nums[mid] == target)
+                    return nums[mid];
+                else if (nums[mid] < target)
+                    left = mid + 1;
+                else
+                    right = mid - 1;
+            }
+
+            return -1;
         }
     }
 }

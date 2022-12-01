@@ -7,7 +7,7 @@ Warm-up:
 2. 💪 https://leetcode.com/problems/intersection-of-two-arrays/
 3. 💪 https://leetcode.com/problems/next-greater-element-i/
 4. https://leetcode.com/problems/teemo-attacking/
-5. https://leetcode.com/problems/max-consecutive-ones/
+5. 💪 https://leetcode.com/problems/max-consecutive-ones/
 6. https://leetcode.com/problems/array-partition/
 7. https://leetcode.com/problems/binary-search/
 8. https://leetcode.com/problems/sort-array-by-parity-ii/

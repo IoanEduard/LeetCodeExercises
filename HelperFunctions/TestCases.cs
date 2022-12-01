@@ -21,6 +21,12 @@ namespace HelperFunctions
         public static int[] FindMaxConsecutiveOnes_TestCase1 = new int[] { 1, 1, 0, 1, 1, 1 };
         public static int[] FindMaxConsecutiveOnes_TestCase2 = new int[] { 1, 0, 1, 1, 0, 1 };
 
+        public static int[] Search_TestCase1_arr = new int[] { -1,0,3,5,9,12 };
+        public static int Search_TestCase1_param = 9;
+        public static int[] Search_TestCase2_arr = new int[] { -1,0,3,5,9,12};
+        public static int Search_TestCase2_param = 2;
+        public static int[] Search_TestCase3_arr = new int[] { 5};
+        public static int Search_TestCase3_param = 5;
 
     }
 }
