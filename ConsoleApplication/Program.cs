@@ -15,5 +15,10 @@ using static Exercises.Exercises;
 // Display<int>.DisplaySingleResult(FindMaxConsecutiveOnes_1(TestCases.FindMaxConsecutiveOnes_TestCase2));
 
 // Display<int>.DisplaySingleResult(Search(TestCases.Search_TestCase1_arr, TestCases.Search_TestCase1_param));
-Display<int>.DisplaySingleResult(Search(TestCases.Search_TestCase3_arr, TestCases.Search_TestCase3_param));
+// Display<int>.DisplaySingleResult(Search(TestCases.Search_TestCase3_arr, TestCases.Search_TestCase3_param));
 
+// Display<bool>.DisplaySingleResult(HalvesAreAlike(TestCases.HalvesAreAlike_TestCase2, Utils.wovewlsUpperCase));
+
+// Display<string>.DisplaySingleResult(DefangIPaddr(TestCases.DefangIPaddr_TestCase1));
+
+Display<string>.DisplaySingleResult(ToGoatLatin(TestCases.ToGoatLatin_TestCase1, Utils.wovewlsUpperCase));

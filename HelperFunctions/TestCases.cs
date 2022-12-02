@@ -21,12 +21,21 @@ namespace HelperFunctions
         public static int[] FindMaxConsecutiveOnes_TestCase1 = new int[] { 1, 1, 0, 1, 1, 1 };
         public static int[] FindMaxConsecutiveOnes_TestCase2 = new int[] { 1, 0, 1, 1, 0, 1 };
 
-        public static int[] Search_TestCase1_arr = new int[] { -1,0,3,5,9,12 };
+        public static int[] Search_TestCase1_arr = new int[] { -1, 0, 3, 5, 9, 12 };
         public static int Search_TestCase1_param = 9;
-        public static int[] Search_TestCase2_arr = new int[] { -1,0,3,5,9,12};
+        public static int[] Search_TestCase2_arr = new int[] { -1, 0, 3, 5, 9, 12 };
         public static int Search_TestCase2_param = 2;
-        public static int[] Search_TestCase3_arr = new int[] { 5};
+        public static int[] Search_TestCase3_arr = new int[] { 5 };
         public static int Search_TestCase3_param = 5;
+
+        public static string HalvesAreAlike_TestCase1 = "book";
+        public static string HalvesAreAlike_TestCase2 = "textbook";
+
+        public static string DefangIPaddr_TestCase1 = "1.1.1.1";
+        public static string DefangIPaddr_TestCase2 = "255.100.50.0";
+
+        public static string ToGoatLatin_TestCase1 = "I speak Goat Latin";
+        public static string ToGoatLatin_TestCase2 = "The quick brown fox jumped over the lazy dog";
 
     }
 }

@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace Exercises
 {
     public static class Exercises
@@ -104,7 +106,6 @@ namespace Exercises
             return result.ToArray();
         }
 
-
         public static int FindMaxConsecutiveOnes(int[] nums)
         {
             // 💩💩💩💩💩💩💩💩💩💩💩💩
@@ -188,12 +189,15 @@ namespace Exercises
 
         private static int BinarySearchLoop(int[] nums, int target, int left, int right)
         {
+            if (nums == null || nums.Length == 0)
+                return -1;
+
             while (left <= right)
             {
-                var mid = (int)Math.Floor((double)(left + right) / 2);
+                var mid = left + (right - left) / 2;
 
                 if (nums[mid] == target)
-                    return nums[mid];
+                    return mid;
                 else if (nums[mid] < target)
                     left = mid + 1;
                 else
@@ -201,6 +205,77 @@ namespace Exercises
             }
 
             return -1;
+        }
+
+        public static bool HalvesAreAlike(string s, char[] vowels)
+        {
+            var middle = (int)Math.Ceiling((decimal)(s.Length - 1) / 2);
+
+            var start = s.Substring(0, middle);
+            var startCount = 0;
+
+            var end = s.Substring(middle, Math.Abs(s.Length - middle));
+            var endCount = 0;
+
+            for (var i = 0; i < start.Length; i++)
+            {
+                if (vowels.Contains(start[i])) startCount++;
+            }
+
+            for (var i = 0; i < end.Length; i++)
+            {
+                if (vowels.Contains(end[i])) endCount++;
+            }
+
+            return startCount == endCount;
+        }
+
+        public static string DefangIPaddr(string address)
+        {
+            var stringBuilder = new StringBuilder();
+
+            for (var i = 0; i < address.Length; i++)
+            {
+                if (address[i] != '.')
+                {
+                    stringBuilder.Append(address[i]);
+                    continue;
+                }
+
+                stringBuilder.Append("[.]");
+            }
+
+            return stringBuilder.ToString();
+        }
+
+        public static string ToGoatLatin(string sentence, char[] wovewlsUpperCase)
+        {
+            var words = sentence.Split(' ');
+            var stringBuilder = new StringBuilder();
+            var increasingChars = new StringBuilder();
+
+            for (var i = 0; i < words.Length; i++)
+            {
+                increasingChars.Append(string.Concat(Enumerable.Repeat('a', i + 1)));
+
+                var whiteSpace = i == words.Length - 1 ? "" : " ";
+
+                if (wovewlsUpperCase.Contains(words[i][0]))
+                {
+                    stringBuilder.Append(words[i] + "ma" + increasingChars.ToString() + whiteSpace);
+                }
+                else
+                {
+                    var firstLetter = words[i][0];
+                    var wordWitoutFirstChar = words[i].Remove(0, 1);
+
+                    stringBuilder.Append(wordWitoutFirstChar + firstLetter + "ma" + increasingChars.ToString() + whiteSpace);
+                }
+
+                increasingChars.Clear();
+            }
+
+            return stringBuilder.ToString();
         }
     }
 }
