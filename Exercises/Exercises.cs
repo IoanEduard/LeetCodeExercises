@@ -277,5 +277,50 @@ namespace Exercises
 
             return stringBuilder.ToString();
         }
+
+        public static string GenerateTheString(int n)
+        {
+            return n % 2 == 1 ? new string('a', n) : "a" + new string('b', n - 1);
+        }
+
+        public static string[] FindOcurrences(string text, string first, string second)
+        {
+            var splitText = text.Split(' ');
+            var result = new List<string>();
+
+            for (var i = 0; i < splitText.Length - 2; i++)
+            {
+                if (splitText[i] == first && splitText[i + 1] == second)
+                {
+                    result.Add(splitText[i + 2]);
+                }
+            }
+
+            return result.ToArray();
+        }
+
+        public static string RemoveOuterParentheses(string s)
+        {
+            var sr = new StringBuilder();
+            var count = 0;
+
+            for (var i = 0; i < s.Length; i++)
+            {
+                if (s[i] == '(')
+                {
+                    if (count > 0)
+                        sr.Append(s[i]);
+                    count++;
+                }
+                else
+                {
+                    if (count > 1)
+                        sr.Append(s[i]);
+                    count--;
+                }
+            }
+
+            return sr.ToString();
+        }
     }
 }

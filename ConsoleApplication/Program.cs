@@ -21,4 +21,16 @@ using static Exercises.Exercises;
 
 // Display<string>.DisplaySingleResult(DefangIPaddr(TestCases.DefangIPaddr_TestCase1));
 
-Display<string>.DisplaySingleResult(ToGoatLatin(TestCases.ToGoatLatin_TestCase1, Utils.wovewlsUpperCase));
+// Display<string>.DisplaySingleResult(ToGoatLatin(TestCases.ToGoatLatin_TestCase1, Utils.wovewlsUpperCase));
+
+// Display<string>.DisplaySingleResult(GenerateTheString(TestCases.GenerateTheString_TestCase1));
+
+// Display<string>.DisplayCollection(FindOcurrences(TestCases.FindOcurrences_TestCase1,
+//                                                 TestCases.FindOcurrences_TestCase1_param1,
+//                                                 TestCases.FindOcurrences_TestCase1_param2));
+
+// Display<string>.DisplayCollection(FindOcurrences(TestCases.FindOcurrences_TestCase2,
+//                                          TestCases.FindOcurrences_TestCase2_param1,
+//                                          TestCases.FindOcurrences_TestCase2_param2));
+
+Display<string>.DisplaySingleResult(RemoveOuterParentheses(TestCases.RemoveOuterParentheses_TestCase1));

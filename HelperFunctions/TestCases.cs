@@ -37,5 +37,19 @@ namespace HelperFunctions
         public static string ToGoatLatin_TestCase1 = "I speak Goat Latin";
         public static string ToGoatLatin_TestCase2 = "The quick brown fox jumped over the lazy dog";
 
+        public static int GenerateTheString_TestCase1 = 4;
+        public static int GenerateTheString_TestCase2 = 2;
+
+        public static string FindOcurrences_TestCase1 = "alice is aa good girl she is a good student";
+        public static string FindOcurrences_TestCase1_param1 = "a";
+        public static string FindOcurrences_TestCase1_param2 = "good";
+        public static string FindOcurrences_TestCase2 = "we will we will rock you";
+        public static string FindOcurrences_TestCase2_param1 = "we";
+        public static string FindOcurrences_TestCase2_param2 = "will";
+
+        public static string RemoveOuterParentheses_TestCase1 = "(()())(())";
+        public static string RemoveOuterParentheses_TestCase2 = "(()())(())(()(()))";
+
+
     }
 }
