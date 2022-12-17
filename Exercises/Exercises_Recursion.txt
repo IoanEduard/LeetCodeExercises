@@ -1,0 +1,2 @@
+﻿💪 https://www.exercisescsharp.com/recursion/reverse-string-recursive
+https://www.w3resource.com/csharp-exercises/recursion/index.php

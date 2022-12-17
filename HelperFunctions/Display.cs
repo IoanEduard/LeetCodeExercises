@@ -1,9 +1,10 @@
 using System.Text;
+using Data_Structures._1.BasicTree;
 using static System.Console;
 
 namespace HelperFunctions
 {
-    public static class Display<T> 
+    public static class Display<T>
     {
         public static void DisplayCollection(IEnumerable<T> collection)
         {

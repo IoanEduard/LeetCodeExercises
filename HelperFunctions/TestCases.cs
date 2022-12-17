@@ -50,6 +50,18 @@ namespace HelperFunctions
         public static string RemoveOuterParentheses_TestCase1 = "(()())(())";
         public static string RemoveOuterParentheses_TestCase2 = "(()())(())(()(()))";
 
+        public static int[] ArrayPairSum_TestCase1 = new int[] { 1, 4, 3, 2 };
+        public static int[] ArrayPairSum_TestCase2 = new int[] { 6, 2, 6, 5, 1, 2 };
+
+        public static int[] FindPoisonedDuration_TestCase1 = new int[] { 1, 4 };
+        public static int FindPoisonedDuration_TestCase1_param1 = 2;
+        public static int[] FindPoisonedDuration_TestCase2 = new int[] { 1, 2 };
+        public static int FindPoisonedDuration_TestCase2_param1 = 2;
+
+        public static int[] SortArrayByParityII_TestCase1 = new int[] { 4,2,5,7 };
+        public static int[] SortArrayByParityII_TestCase2 = new int[] { 2,3 };
+
+        public static int DisplayDigits = 12345;
 
     }
 }

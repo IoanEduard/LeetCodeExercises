@@ -322,5 +322,69 @@ namespace Exercises
 
             return sr.ToString();
         }
+
+        public static int ArrayPairSum(int[] nums)
+        {
+            var result = 0;
+            Array.Sort(nums);
+
+            for (var i = 0; i < nums.Length; i += 2)
+            {
+                result += nums[i];
+            }
+
+            return result;
+        }
+
+        public static int FindPoisonedDuration(int[] timeSeries, int duration)
+        {
+            var result = 0;
+
+            for (var i = 0; i < timeSeries.Length - 1; i++)
+            {
+                var sum = timeSeries[i] + duration;
+                if (sum <= timeSeries[i + 1])
+                {
+                    result += sum;
+                }
+
+                if (sum > timeSeries[i + 1])
+                {
+                    result += timeSeries[i + 1] - timeSeries[i];
+                }
+            }
+
+            result += duration;
+
+            return result;
+        }
+
+        public static int[] SortArrayByParityII(int[] nums)
+        {
+            var result = new int[nums.Length];
+
+            var even = 0;
+            var odd = 1;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] % 2 == 0)
+                {
+                    result[even] = nums[i];
+                    even += 2;
+                }
+
+                if (nums[i] % 2 != 0)
+                {
+                    result[odd] = nums[i];
+                    odd += 2;
+                }
+            }
+
+            return result;
+        }
+
+       
+
     }
 }

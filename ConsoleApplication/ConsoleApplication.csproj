@@ -3,6 +3,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Exercises\Exercises.csproj" />
     <ProjectReference Include="..\HelperFunctions\HelperFunctions.csproj" />
+    <ProjectReference Include="..\Data-Structures\Data-Structures.csproj" />
+    <ProjectReference Include="..\OOP\OOP.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
