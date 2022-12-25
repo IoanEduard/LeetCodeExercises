@@ -1,1 +1,8 @@
 ﻿https://www.exercisescsharp.com/oop/
+https://www.exercisescsharp.com/oop/class-person-student-and-teacher
+https://www3.ntu.edu.sg/home/ehchua/programming/java/j3f_oopexercises.html
+https://pynative.com/python-object-oriented-programming-oop-exercise/
+https://www.studocu.com/row/document/comsats-university-islamabad/object-oriented-programming/oop-exercises-practice-problems-of-object-oriented-programming-in-java/13486070
+http://swarm.cs.pub.ro/~vdobrota/oop/
+https://stackoverflow.com/questions/60109/good-challenges-tasks-exercises-for-learning-or-improving-object-oriented-progra
+https://slott56.github.io/building-skills-oo-design-book/build/html/index.html

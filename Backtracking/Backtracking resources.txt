@@ -1,0 +1,29 @@
+﻿        // Backtracking
+        // https://www.youtube.com/watch?v=s7AvT7cGdSo
+        // https://www.chadgolden.com/blog/finding-all-the-permutations-of-an-array-in-c-sharp
+        // https://www.youtube.com/watch?v=Nabbpl7y4Lo
+        // https://www.youtube.com/watch?v=Zq4upTEaQyM
+        https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf
+        https://www.youtube.com/watch?v=DKCbsiDBN6c
+
+Problems to solve:
+1. https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo
+2. https://www.youtube.com/watch?v=xFv_Hl4B83A
+3. https://www.youtube.com/watch?v=gBC_Fd8EE8A
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.

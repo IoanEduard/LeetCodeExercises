@@ -1,0 +1,17 @@
+1. Recursion problems 
+2. LeetCode problems
+3. More easy problems
+
+3. Multidimensional Arrays
+
+4. OOP
+5. Design Patterns
+
+6. Backtracking
+7. Greedy
+
+8. Sorting & Searching Algoritms
+9. Trees
+10. Graphs
+
+11. Various books 

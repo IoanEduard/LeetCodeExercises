@@ -1,8 +1,11 @@
 ﻿using Data_Structures;
 using Data_Structures._1.BasicTree;
 using HelperFunctions;
-using static Exercises.Exercises;
+using System.Collections.Generic;
+using z_Resources._1._Algorithhms_4th_Edition_by_Robert_Sedgewick__Kevin_Wayne;
+using static Exercises.Exercises_LeetCode;
 using static Exercises.Exercises_Recursion;
+using static z_Resources._1._Algorithhms_4th_Edition_by_Robert_Sedgewick__Kevin_Wayne.BinarySearchAlgorithm;
 
 // Display<bool>.DisplaySingleResult(UniqueOccurrences(TestCases.UniqueOccurrences_Test2));
 // Display<bool>.DisplaySingleResult(UniqueOccurrences_Linq(TestCases.UniqueOccurrences_Test2));
@@ -67,8 +70,41 @@ using static Exercises.Exercises_Recursion;
 //Display<int>.DisplaySingleResult(CountDigits(12345, 0));
 
 //Display<int>.DisplaySingleResult(OddNumbers(2, 20));
-Display<bool>.DisplaySingleResult(PrimeNumber(37, 2));
+//Display<bool>.DisplaySingleResult(PrimeNumber(37, 2));
+//Display<bool>.DisplaySingleResult(IsPalindrome2("radar"));
 
+//Display<int>.DisplaySingleResult(Fibonacci_NotRecursive(13));
+//Display<int>.DisplaySingleResult(Fibonacci3(13, 1, 1, 0));
+
+//foreach (var list in AllPermutations(new int[] { 1, 2, 3 }))
+//{
+//    Display<string>.DisplaySingleResult($"[{string.Join(',', list)}]");
+//}
+
+//Display<int>.DisplaySingleResult(GCD(10, 15));
+//Display<int>.DisplaySingleResult(LCM(18, 24));
+
+//Display<string>.DisplaySingleResult(ConvertToDecimal(65, string.Empty));
+//Display<int>.DisplaySingleResult(PowerOfNumber(3, 5));
+//Display<string>.DisplaySingleResult(ReverseString2("w3resource"));
+
+//Display<int>.DisplayCollection(Utils.AllIntegers());
+
+//Display<int>.DisplaySingleResult(BinarySearch(11, new int[] { 10, 11, 20, 30, 50, 60, 80, 110, 130, 140, 170 }));
+//Display<int>.DisplaySingleResult(new int[] { 10, 11, 20, 30, 50, 60, 80, 110, 130, 140, 170 }.BinarySearch(110));
+
+//Display<int>.DisplaySingleResult(Multiplication(1234));
+//Display<int>.DisplaySingleResult(Factorial2(7));
+//Display<int>.DisplaySingleResult(Fibonacci3(7));
+//Display<int>.DisplaySingleResult(RangeMultiplication(50, 50));
+//Display<int>.DisplaySingleResult(PowerOfNumber2(5,2));
+//Display<bool>.DisplaySingleResult(Palindrome("radar"));
+//Display<int>.DisplaySingleResult(MinimumElement(new int[] { -2, -9, 2, -3, 1, 0 }, int.MaxValue, 0));
+//Display<bool>.DisplaySingleResult(Exercises.Exercises_LeetCode.IsPalindrome("ab2a"));
+//Display<string>.DisplayCollection(CommonChars(TestCases.CommonChars_TestCase1));
+//Display<int>.DisplayCollection(SortedSquares2(TestCases.SortedSquares_TestCase2));
+
+Display<int>.DisplayCollection(SortArrayByParityII2(TestCases.SortedSquares_TestCase4));
 
 
 

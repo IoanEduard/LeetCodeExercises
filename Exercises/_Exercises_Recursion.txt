@@ -1,0 +1,38 @@
+﻿💪 https://www.exercisescsharp.com/recursion/reverse-string-recursive
+💪 https://www.w3resource.com/csharp-exercises/recursion/index.php
+💪 https://www.csharpexercises.com/recursion
+https://leetcode.com/tag/recursion/
+
+Fibonacci logic
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+
+Fn = Fn-1 + Fn-2
+
+0 + 1 = 1
+1 + 1 = 2
+2 + 1 = 3
+3 + 2 = 5
+5 + 3 = 8
+8 + 5 = 13
+13 + 8 = 21
+21 + 13 = 34
+
+We initialize result = 0
+			  sum = 1
+
+We store the result in a temporary variable
+	var temp = result
+
+Then we store the previous result in the sum
+	result = sum
+
+We do the sum between sum an previous result(temp)
+	sum +=temp
+
+
+Reverse string logic
+
+// abcde
+
+// bcde + a
+// cdea + b 

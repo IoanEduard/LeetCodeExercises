@@ -58,10 +58,17 @@ namespace HelperFunctions
         public static int[] FindPoisonedDuration_TestCase2 = new int[] { 1, 2 };
         public static int FindPoisonedDuration_TestCase2_param1 = 2;
 
-        public static int[] SortArrayByParityII_TestCase1 = new int[] { 4,2,5,7 };
-        public static int[] SortArrayByParityII_TestCase2 = new int[] { 2,3 };
+        public static int[] SortArrayByParityII_TestCase1 = new int[] { 4, 2, 5, 7 };
+        public static int[] SortArrayByParityII_TestCase2 = new int[] { 2, 3 };
 
         public static int DisplayDigits = 12345;
+
+        public static string[] CommonChars_TestCase1 = new string[] { "bella", "label", "roller" };
+
+        public static int[] SortedSquares_TestCase1 = new int[] { -4, -1, 0, 3, 10 };
+        public static int[] SortedSquares_TestCase2 = new int[] { -7, -3, 2, 3, 11 };
+        public static int[] SortedSquares_TestCase3 = new int[] { 4, 1, 2, 1 };
+        public static int[] SortedSquares_TestCase4 = new int[] { 3, 1, 4, 2, 6, 5, 2, 6, 8, 1, 3, 5 };
 
     }
 }

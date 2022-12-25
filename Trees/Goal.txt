@@ -1,0 +1,31 @@
+﻿https://www.techinterviewhandbook.org/algorithms/tree/
+https://www.fullstack.cafe/blog/binary-tree-interview-questions
+https://igotanoffer.com/blogs/tech/tree-interview-questions
+https://www.interviewbit.com/courses/programming/tree-data-structure/
+https://www.youtube.com/watch?v=K0-qs--naUo
+http://www.a2zinterviews.com/Languages/data-structure-interview-questions/
+https://cis300.cs.ksu.edu/trees/bst/intro/
+https://csharpexamples.com/c-binary-search-tree-implementation/
+https://www.csharpstar.com/csharp-program-to-implement-binary-search-tree/
+
+Problems to solve:
+1. https://www.youtube.com/watch?v=ihj4IQGZ2zc
+2. https://www.geeksforgeeks.org/top-50-tree-coding-problems-for-interviews/
+3. https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/786/
+4. https://www.codingninjas.com/codestudio/problem-lists/top-trees-interview-questions
+5. https://medium.com/techie-delight/binary-tree-interview-questions-and-practice-problems-439df7e5ea1f
+6. https://www.techiedelight.com/inorder-tree-traversal-iterative-recursive/
+7. https://medium.com/techie-delight/binary-search-practice-problems-4c856cd9f26c
+8. 
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
