@@ -70,5 +70,42 @@ namespace HelperFunctions
         public static int[] SortedSquares_TestCase3 = new int[] { 4, 1, 2, 1 };
         public static int[] SortedSquares_TestCase4 = new int[] { 3, 1, 4, 2, 6, 5, 2, 6, 8, 1, 3, 5 };
 
+        public static char[] ReverseString_TestCase1 = new char[] { 'h', 'e', 'l', 'l', 'o' };
+
+        public static string FirstUniqChar_TestCase1 = "leetcode";
+        public static string FirstUniqChar_TestCase2 = "loveleetcode";
+        public static string FirstUniqChar_TestCase3 = "aabb";
+
+        public static string CanConstruct_TestCase1_param1 = "aa";
+        public static string CanConstruct_TestCase1_param2 = "aab";
+
+        public static string[] FindWords_TestCase1 = new string[] { "Hello", "Alaska", "Dad", "Peace" };
+        public static string[] FindWords_TestCase2 = new string[] { "adsdf", "sfd" };
+
+        public static string JudgeCircle_TestCase1 = "UD";
+        public static string JudgeCircle_TestCase2 = "LL";
+
+        public static string NumJewelsInStones_TestCase1_param1 = "aA";
+        public static string NumJewelsInStones_TestCase1_param2 = "aAAbbbb";
+
+        public static string NumJewelsInStones_TestCase2_param1 = "z";
+        public static string NumJewelsInStones_TestCase2_param2 = "ZZ";
+
+        public static string BalancedStringSplit_TestCase1 = "RLRRLLRLRL";
+        public static string BalancedStringSplit_TestCase2 = "RLRRRLLRLL";
+        public static string BalancedStringSplit_TestCase3 = "LLLLRRRR";
+
+        public static string IsValid_TestCase2 = "()";
+        public static string IsValid_TestCase1 = "()[]{}";
+        public static string IsValid_TestCase3 = "(]";
+
+        public static string[] ArrayStringsAreEqual_TestCase1_param1 = new string[] { "ab", "c" };
+        public static string[] ArrayStringsAreEqual_TestCase1_param2 = new string[] { "a", "bc" };
+
+        public static string[] ArrayStringsAreEqual_TestCase2_param1 = new string[] { "a", "cb" };
+        public static string[] ArrayStringsAreEqual_TestCase2_param2 = new string[] { "ab", "c" };
+
+        public static string[] ArrayStringsAreEqual_TestCase3_param1 = new string[] { "abc", "d", "defg" };
+        public static string[] ArrayStringsAreEqual_TestCase3_param2 = new string[] { "abcddefg" };
     }
 }

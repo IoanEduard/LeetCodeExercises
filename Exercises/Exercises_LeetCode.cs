@@ -1,3 +1,6 @@
+using _HelperFunctions;
+using System.Collections;
+using System.Linq;
 using System.Text;
 
 namespace Exercises
@@ -415,28 +418,6 @@ namespace Exercises
             return true;
         }
 
-        public static IList<string> CommonChars(string[] words)
-        {
-            var wordsSorted = new List<string>();
-
-            foreach (var word in words)
-            {
-                var chars = word.ToArray();
-                Array.Sort(chars);
-                wordsSorted.Add(new string(chars));
-            }
-
-            for (int i = 0; i < words.Length; i++)
-            {
-                for (int j = 0; j < words[i].Length; j++)
-                {
-                    Console.WriteLine($"{words[i][j]}");
-                }
-            }
-
-            return new string[0];
-        }
-
         public static int[] SortedSquares(int[] nums)
         {
             var result = new int[nums.Length];
@@ -512,6 +493,354 @@ namespace Exercises
             }
 
             return result;
+        }
+
+        public static IList<string> CommonChars(string[] words)
+        {
+            var dict = new Dictionary<char, int>();
+            var tempDictionary = new Dictionary<char, int>();
+
+            foreach (char character in words[0])
+            {
+                if (dict.ContainsKey(character))
+                {
+                    dict[character]++;
+                }
+                else
+                {
+                    dict.Add(character, 1);
+                }
+            }
+
+            for (var i = 0; i < words.Length; i++)
+            {
+                var dict2 = new Dictionary<char, int>();
+
+                for (int j = 0; j < words[i].Length; j++)
+                {
+                    if (dict2.ContainsKey(words[i][j]))
+                    {
+                        dict2[words[i][j]]++;
+                    }
+                    else
+                    {
+                        dict2.Add(words[i][j], 1);
+                    }
+                }
+
+                foreach (var key in dict.Keys)
+                {
+                    if (dict2.ContainsKey(key))
+                    {
+                        tempDictionary.Add(key, Math.Min(dict[key], dict2[key]));
+                    }
+                }
+
+                dict = tempDictionary;
+                tempDictionary = new Dictionary<char, int>();
+            }
+
+            var list = new List<string>();
+
+            foreach (var item in dict)
+            {
+                list.AddRange(Enumerable.Repeat(item.Key.ToString(), item.Value));
+            }
+
+            return list;
+        }
+
+        public static void ReverseString(char[] s)
+        {
+            for (int i = 0, j = s.Length - 1; i < j; i++, j--)
+            {
+                var temp = s[i];
+                s[i] = s[j];
+                s[j] = temp;
+            }
+        }
+
+        public static int FirstUniqChar(string s)
+        {
+            var isDuplicate = false;
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                for (int j = 0; j < s.Length; j++)
+                {
+                    if (isDuplicate == false && i != j)
+                    {
+                        if (s[i] == s[j])
+                        {
+                            isDuplicate = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (isDuplicate == false)
+                    return i;
+
+                isDuplicate = false;
+            }
+
+            return -1;
+        }
+
+        public static bool CanConstruct(string ransomNote, string magazine)
+        {
+            var dict = new Dictionary<char, int>();
+
+            foreach (var character in magazine)
+            {
+                if (dict.ContainsKey(character))
+                {
+                    dict[character]++;
+                }
+                else
+                {
+                    dict.Add(character, 1);
+                }
+            }
+
+            for (int i = 0; i < ransomNote.Length; i++)
+            {
+                if (dict.ContainsKey(ransomNote[i]))
+                {
+                    if (dict[ransomNote[i]] == 0)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        dict[ransomNote[i]]--;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        public static IList<string> FizzBuzz(int n)
+        {
+            var list = new List<string>();
+
+            for (int i = 1; i <= n; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    list.Add("FizzBuzz");
+                    continue;
+                }
+
+                if (i % 3 == 0)
+                {
+                    list.Add("Fizz");
+                    continue;
+                }
+
+                if (i % 5 == 0)
+                {
+                    list.Add("Buzz");
+                    continue;
+                }
+
+                list.Add(i.ToString());
+            }
+
+            return list;
+        }
+
+        public static string[] FindWords(string[] words)
+        {
+            var hash1 = new HashSet<char> { 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p' };
+            var hash2 = new HashSet<char> { 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l' };
+            var hash3 = new HashSet<char> { 'z', 'x', 'c', 'v', 'b', 'n', 'm' };
+
+            var result = new List<string>();
+
+            var flag = true;
+            for (int i = 0; i < words.Length; i++)
+            {
+                if (hash1.Contains(char.ToLower(words[i][0])))
+                {
+                    foreach (var character in words[i].ToLower())
+                    {
+                        if (!hash1.Contains(character))
+                        {
+                            flag = false;
+                            break;
+                        }
+                    }
+
+                    if (flag == true)
+                        result.Add(words[i]);
+                }
+
+                else if (hash2.Contains(char.ToLower(words[i][0])))
+                {
+                    foreach (var character in words[i].ToLower())
+                    {
+                        if (!hash2.Contains(character))
+                        {
+                            flag = false;
+                            break;
+                        }
+                    }
+
+                    if (flag == true)
+                        result.Add(words[i]);
+                }
+
+                else if (hash3.Contains(char.ToLower(words[i][0])))
+                {
+                    foreach (var character in words[i].ToLower())
+                    {
+                        if (!hash3.Contains(character))
+                        {
+                            flag = false;
+                            break;
+                        }
+                    }
+
+                    if (flag == true)
+                        result.Add(words[i]);
+                }
+                flag = true;
+            }
+
+            return result.ToArray();
+        }
+
+        public static bool JudgeCircle(string moves)
+        {
+            var upDown = 0;
+            var leftRight = 0;
+
+            for (int i = 0; i < moves.Length; i++)
+            {
+                switch (moves[i])
+                {
+                    case 'U':
+                        upDown++;
+                        break;
+                    case 'D':
+                        upDown--;
+                        break;
+                    case 'L':
+                        leftRight++;
+                        break;
+                    case 'R':
+                        leftRight--;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            return upDown == 0 && leftRight == 0;
+        }
+
+        public static int NumJewelsInStones(string jewels, string stones)
+        {
+            var dict = new Dictionary<char, int>();
+
+            foreach (var jewel in jewels)
+            {
+                dict.InsertOrIncrement(jewel);
+            }
+
+            for (int i = 0; i < stones.Length; i++)
+            {
+                if (dict.ContainsKey(stones[i]))
+                {
+                    dict[stones[i]]++;
+                }
+            }
+
+            return dict.Values.Sum() - dict.Values.Count();
+        }
+
+        public static int BalancedStringSplit(string s)
+        {
+            var result = 0;
+            var rCounter = 0;
+            var lCounter = 0;
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                switch (s[i])
+                {
+                    case 'R':
+                        rCounter++;
+                        break;
+                    case 'L':
+                        lCounter++;
+                        break;
+                    default:
+                        break;
+                }
+                if (lCounter == rCounter && i > 0) result++;
+            }
+
+            return result;
+        }
+
+        public static bool IsValid(string s)
+        {
+            var stack = new Stack<char>();
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                var stackValue = new char();
+                stack.TryPeek(out stackValue);
+
+                if ((stackValue == '(' && s[i] == ')')
+                    || (stackValue == '[' && s[i] == ']')
+                    || (stackValue == '{' && s[i] == '}'))
+                {
+                    stack.Pop();
+                }
+                else
+                {
+                    stack.Push(s[i]);
+                }
+            }
+
+            return !(stack.Count > 0);
+        }
+
+        // Wrong way
+        public static bool ArrayStringsAreEqual(string[] word1, string[] word2)
+        {
+            var dictionary = new Dictionary<char, int>();
+
+            foreach (var word in word1)
+            {
+                foreach (var character in word)
+                {
+                    dictionary.InsertOrIncrement<char>(character);
+                }
+            }
+
+            for (int i = 0; i < word2.Length; i++)
+            {
+                for (int j = 0; j < word2[i].Length; j++)
+                {
+                    dictionary.RemoveOrDecrement<char>(word2[i][j]);
+                }
+            }
+
+            return dictionary.Count() > 0;
+        }
+
+        public static bool ArrayStringsAreEqualStack(string[] word1, string[] word2)
+        {
+            return string.Concat(word1).Equals(string.Concat(word2));
         }
     }
 }

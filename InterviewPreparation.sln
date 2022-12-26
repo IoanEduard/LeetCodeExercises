@@ -15,26 +15,28 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchingAlgorithms", "Sear
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{EF758A8B-A29D-4F57-BD77-18B8011384C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backtracking", "Backtracking\Backtracking.csproj", "{894CFA34-23DC-47BC-93F5-9D999DF65D23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backtracking", "Backtracking\Backtracking.csproj", "{894CFA34-23DC-47BC-93F5-9D999DF65D23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{A21DBF46-322B-424B-A242-BB2590B70514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{A21DBF46-322B-424B-A242-BB2590B70514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greedy", "Greedy\Greedy.csproj", "{BDD8A45A-ED75-4100-A03B-B7CB9CB4311E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greedy", "Greedy\Greedy.csproj", "{BDD8A45A-ED75-4100-A03B-B7CB9CB4311E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{C643544F-D09D-4E22-B792-602AF3B9B5D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trees", "Trees\Trees.csproj", "{C643544F-D09D-4E22-B792-602AF3B9B5D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs", "Graphs\Graphs.csproj", "{5EEEEBC0-0957-485D-A7FF-1C497C69A7C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphs", "Graphs\Graphs.csproj", "{5EEEEBC0-0957-485D-A7FF-1C497C69A7C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multidimensional Arrays", "Multidimensional Arrays\Multidimensional Arrays.csproj", "{29BF746A-440D-41AD-A7BF-A016D1A45C96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multidimensional Arrays", "Multidimensional Arrays\Multidimensional Arrays.csproj", "{29BF746A-440D-41AD-A7BF-A016D1A45C96}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DBB3DC98-B4EE-4A48-BB5C-64ACAA46FAD2}"
 	ProjectSection(SolutionItems) = preProject
 		Schedule.txt = Schedule.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "z_Resources", "Resources\z_Resources.csproj", "{D60D6C9E-2EA5-475B-8C44-CA232F8F965F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "z_Resources", "Resources\z_Resources.csproj", "{D60D6C9E-2EA5-475B-8C44-CA232F8F965F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{8155379B-AE6E-4171-957E-8C8DEFD9AC87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic", "Dynamic\Dynamic.csproj", "{8155379B-AE6E-4171-957E-8C8DEFD9AC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{DA4AD909-5DEA-48A9-9E42-9E612311C1F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +100,10 @@ Global
 		{8155379B-AE6E-4171-957E-8C8DEFD9AC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8155379B-AE6E-4171-957E-8C8DEFD9AC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8155379B-AE6E-4171-957E-8C8DEFD9AC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4AD909-5DEA-48A9-9E42-9E612311C1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4AD909-5DEA-48A9-9E42-9E612311C1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4AD909-5DEA-48A9-9E42-9E612311C1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4AD909-5DEA-48A9-9E42-9E612311C1F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

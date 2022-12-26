@@ -1,0 +1,9 @@
+﻿0. Easy stuff from links:
+	  i. https://www.w3resource.com/csharp-exercises/linq/index.php
+	 ii. 
+	iii.
+
+1. Process txt, csv files, xml
+	- Generic file processors
+2. Practice Joins, GroupBy, Aggreggate, Intersect, SelectMany
+3. Reproduce method signatures with extension methods or normal methods as paramters.
