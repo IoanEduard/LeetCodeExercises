@@ -88,8 +88,9 @@ using static z_Resources._1._Algorithhms_4th_Edition_by_Robert_Sedgewick__Kevin_
 //Display<bool>.DisplaySingleResult(IsValid(TestCases.IsValid_TestCase1));
 //Display<bool>.DisplaySingleResult(IsValid(TestCases.IsValid_TestCase2));
 //Display<bool>.DisplaySingleResult(IsValid(TestCases.IsValid_TestCase3));
-Display<bool>.DisplaySingleResult(ArrayStringsAreEqualStack(TestCases.ArrayStringsAreEqual_TestCase1_param1, TestCases.ArrayStringsAreEqual_TestCase1_param2));
-Display<bool>.DisplaySingleResult(ArrayStringsAreEqualStack(TestCases.ArrayStringsAreEqual_TestCase2_param1, TestCases.ArrayStringsAreEqual_TestCase2_param2));
-Display<bool>.DisplaySingleResult(ArrayStringsAreEqualStack(TestCases.ArrayStringsAreEqual_TestCase3_param1, TestCases.ArrayStringsAreEqual_TestCase3_param2));
-
-
+//Display<bool>.DisplaySingleResult(ArrayStringsAreEqualStack(TestCases.ArrayStringsAreEqual_TestCase1_param1, TestCases.ArrayStringsAreEqual_TestCase1_param2));
+//Display<bool>.DisplaySingleResult(ArrayStringsAreEqualStack(TestCases.ArrayStringsAreEqual_TestCase2_param1, TestCases.ArrayStringsAreEqual_TestCase2_param2));
+//Display<bool>.DisplaySingleResult(ArrayStringsAreEqualStack(TestCases.ArrayStringsAreEqual_TestCase3_param1, TestCases.ArrayStringsAreEqual_TestCase3_param2));
+//Display<int[]>.DisplayCollection(LargestLocal(TestCases.LargestLocal_TestCase1));
+//Display<int>.DisplaySingleResult(DiagonalSum(TestCases.DiagonalSum_TestCase4));
+Display<int>.DisplaySingleResult(CountNegatives(TestCases.CountNegatives_TestCase2));

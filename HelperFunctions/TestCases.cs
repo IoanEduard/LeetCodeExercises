@@ -107,5 +107,61 @@ namespace HelperFunctions
 
         public static string[] ArrayStringsAreEqual_TestCase3_param1 = new string[] { "abc", "d", "defg" };
         public static string[] ArrayStringsAreEqual_TestCase3_param2 = new string[] { "abcddefg" };
+
+        public static int[][] LargestLocal_TestCase1 = new int[][] {
+            new int[] { 9,9,8,1 },
+            new int[] { 5,6,2,6 },
+            new int[] { 8,2,6,4 },
+            new int[] { 6,2,2,2 },
+        };
+
+        public static int[][] DiagonalSum_TestCase1 = new int[][] {
+            new int[] { 1,2,3 },
+            new int[] { 4,5,6 },
+            new int[] { 7,8,9 },
+        };
+
+        public static int[][] DiagonalSum_TestCase2 = new int[][] {
+            new int[] { 1,1,1,1 },
+            new int[] { 1,1,1,1 },
+            new int[] { 1,1,1,1 },
+            new int[] { 1,1,1,1 },
+        };
+
+        public static int[][] DiagonalSum_TestCase4 = new int[][] {
+            new int[] { 7,3,1,9 },
+            new int[] { 3,4,6,9 },
+            new int[] { 6,9,6,6 },
+            new int[] { 9,5,8,5 },
+        };
+
+        public static int[][] DiagonalSum_TestCase3 = new int[][] {
+            new int[] { 5 },
+        };
+
+        public static int[][] CountNegatives_TestCase1 = new int[][] {
+            new int[] { 4,3,2,-1 },
+            new int[] { 3,2,1,-1 },
+            new int[] { 1,1,-1,-2 },
+            new int[] { -1,-1,-2,-3 },
+        };
+
+        public static int[][] CountNegatives_TestCase2 = new int[][] {
+            new int[] { 5,1,0 },
+            new int[] { -5,-5,-5 },
+        };
+
+        public static int[][] CheckValid_TestCase1 = new int[][] {
+            new int[] { 1,2,3 },
+            new int[] { 3,1,2 },
+            new int[] { 2,3,1 },
+        };
+
+        public static int[][] CheckValid_TestCase1 = new int[][] {
+            new int[] { 1,2,3 },
+            new int[] { 3,1,2 },
+            new int[] { 2,3,1 },
+        };
     }
 }
+

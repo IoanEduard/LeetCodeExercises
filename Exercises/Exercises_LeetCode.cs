@@ -842,5 +842,101 @@ namespace Exercises
         {
             return string.Concat(word1).Equals(string.Concat(word2));
         }
+
+        public static int[][] LargestLocal(int[][] grid)
+        {
+            int[][] result = new int[grid.Length - 2][];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = new int[grid.Length - 2];
+            };
+
+            for (int i = 0; i < grid.Length - 2; ++i)
+            {
+                for (int j = 0; j < grid.Length - 2; ++j)
+                {
+                    for (int k = i; k < i + 3; ++k)
+                    {
+                        for (int l = j; l < j + 3; ++l)
+                        {
+                            result[i][j] = Math.Max(result[i][j], grid[k][l]);
+                        }
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public static int DiagonalSum0(int[][] mat)
+        {
+            var sum = 0;
+
+            for (int i = 0; i < mat.Length ; i++)
+            {
+                for (int j = 0; j < mat.Length; j++ )
+                {
+                    if (i == j)
+                    {
+                        sum += mat[i][j];
+                    }
+                }
+            }
+
+            for (int n = 0; n < mat.Length; n++)
+            {
+                sum += mat[n][mat[0].Length - n - 1];
+            }
+
+            if (mat[0].Length % 2 != 0)
+                sum -= mat[mat.Length / 2][mat[0].Length / 2];
+
+            return sum;
+        }
+
+        public static int DiagonalSum(int[][] mat)
+        {
+            var sum = 0;
+
+            for (int n = 0; n < mat.Length; n++)
+            {
+                sum += mat[n][n];
+                sum += mat[n][mat[0].Length - n - 1];
+            }
+
+            if (mat[0].Length % 2 != 0)
+                sum -= mat[mat.Length / 2][mat[0].Length / 2];
+
+            return sum;
+        }
+
+        public static int CountNegatives(int[][] grid)
+        {
+            var count = 0;
+
+            for (int i = 0; i < grid.Length; i++)
+            {
+                for (int j = grid[i].Length - 1; j >= 0; j--)
+                {
+                    if (grid[i][j] < 0)
+                    {
+                        count++;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
+
+            return count;
+        }
+
+        public static bool CheckValid(int[][] matrix)
+        {
+
+
+            return true;
+        }
     }
 }
