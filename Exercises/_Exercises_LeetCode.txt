@@ -60,25 +60,25 @@ b. 10 Medium
 
 c. Matrices
 1.  💪 https://leetcode.com/problems/largest-local-values-in-a-matrix/
-2.  https://leetcode.com/problems/richest-customer-wealth/
-3.  https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/
-4.  https://leetcode.com/problems/flipping-an-image/
+2.  💪 https://leetcode.com/problems/richest-customer-wealth/
+3.  💪 https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/
+4.  💪 https://leetcode.com/problems/flipping-an-image/
 5.  💪 https://leetcode.com/problems/matrix-diagonal-sum/
 6.  💪 https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
-7.  https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
-8.  https://leetcode.com/problems/projection-area-of-3d-shapes/
-9.  https://leetcode.com/problems/island-perimeter/
-10. https://leetcode.com/problems/matrix-cells-in-distance-order/
-11. https://leetcode.com/problems/toeplitz-matrix/
-12. https://leetcode.com/problems/available-captures-for-rook/
+7.  💪 https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+8.  NOPE https://leetcode.com/problems/projection-area-of-3d-shapes/ 
+9.  LATER https://leetcode.com/problems/island-perimeter/
+10. NOPE https://leetcode.com/problems/matrix-cells-in-distance-order/
+11. 💪 https://leetcode.com/problems/toeplitz-matrix/
+12. HARD https://leetcode.com/problems/available-captures-for-rook/
 13. https://leetcode.com/problems/shift-2d-grid/
 14. https://leetcode.com/problems/check-if-matrix-is-x-matrix/
 15. https://leetcode.com/problems/special-positions-in-a-binary-matrix/
-16. https://leetcode.com/problems/transpose-matrix/
-17. https://leetcode.com/problems/surface-area-of-3d-shapes/
+16. 💪 https://leetcode.com/problems/transpose-matrix/
+17. NOPE https://leetcode.com/problems/surface-area-of-3d-shapes/
 18. https://leetcode.com/problems/reshape-the-matrix/
-19. https://leetcode.com/problems/flood-fill/
-20. https://leetcode.com/problems/convert-1d-array-into-2d-array/
+19. DFS https://leetcode.com/problems/flood-fill/
+20. 💪 https://leetcode.com/problems/convert-1d-array-into-2d-array/
 21. https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation
 22. https://leetcode.com/problems/image-smoother/
 23. https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game
@@ -89,3 +89,56 @@ c. Matrices
 28. https://leetcode.com/problems/subrectangle-queries/
 29. https://leetcode.com/problems/sort-the-matrix-diagonally
 30. https://leetcode.com/problems/number-of-laser-beams-in-a-bank
+31. https://leetcode.com/problems/check-if-matrix-is-x-matrix/
+32. 💪 https://leetcode.com/problems/find-lucky-integer-in-an-array/
+33. https://leetcode.com/problems/reshape-the-matrix/description/
+
+Arrays Most Solved
+1. 💪 https://leetcode.com/problems/build-array-from-permutation/
+2. 💪 https://leetcode.com/problems/concatenation-of-array/
+3. 💪 https://leetcode.com/problems/running-sum-of-1d-array/
+4. 💪 https://leetcode.com/problems/number-of-good-pairs/
+5. 💪 https://leetcode.com/problems/shuffle-the-array/
+6. 💪 https://leetcode.com/problems/maximum-number-of-words-found-in-sentences
+7. 💪 https://leetcode.com/problems/kids-with-the-greatest-number-of-candies
+8. 💪 https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+9. Binary Search https://leetcode.com/problems/longest-subsequence-with-limited-sum/
+10. Binary Search https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+11. ! https://leetcode.com/problems/create-target-array-in-the-given-order
+12. 💪 https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/solutions
+13. 💪 https://leetcode.com/problems/decode-xored-array/
+14. 💪 https://leetcode.com/problems/decompress-run-length-encoded-list/
+15. 💪 https://leetcode.com/problems/shuffle-string/
+16. 💩 https://leetcode.com/problems/design-an-ordered-stream/
+17. 💪 https://leetcode.com/problems/count-items-matching-a-rule
+18. 💪 https://leetcode.com/problems/number-of-arithmetic-triplets
+19. 💪 https://leetcode.com/problems/two-sum/
+20. 💪 https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
+21. 💪 https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k
+22. 💪 https://leetcode.com/problems/truncate-sentence/
+23. 💪 https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone
+24. 💪 https://leetcode.com/problems/count-the-number-of-consistent-strings/
+
+....
+💪 https://leetcode.com/problems/goal-parser-interpretation/
+💪 https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/
+💪 https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/
+💪 https://leetcode.com/problems/palindrome-number/submissions/
+💪 https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+💪 https://leetcode.com/problems/excel-sheet-column-title/
+💪 https://leetcode.com/problems/majority-element/
+💪 https://leetcode.com/problems/most-frequent-even-element/
+💪 https://leetcode.com/problems/excel-sheet-column-number/
+💪 https://leetcode.com/problems/number-of-segments-in-a-string/
+💪 https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
+💪 https://leetcode.com/problems/convert-the-temperature/
+💪 https://leetcode.com/problems/smallest-even-multiple/
+💪 https://leetcode.com/problems/add-two-integers/
+💪 https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
+💪 https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
+💪 https://leetcode.com/problems/add-digits/
+💪 https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
+💪 https://leetcode.com/problems/count-integers-with-even-digit-sum/
+💪 https://leetcode.com/problems/happy-number/
+💪 https://leetcode.com/problems/ugly-number/
+💪 https://leetcode.com/problems/xor-operation-in-an-array/

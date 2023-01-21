@@ -23,5 +23,18 @@ namespace HelperFunctions
         {
             WriteLine(input);
         }
+
+        public static void DisplayMatrix(int[][] matrix)
+        {
+            for (int n = 0; n < matrix.Length; n++)
+            {
+                Write("Row({0}): ", n);
+                for (int k = 0; k < matrix[n].Length; k++)
+                {
+                    Write("{0} ", matrix[n][k]);
+                }
+                WriteLine();
+            }
+        }
     }
 }

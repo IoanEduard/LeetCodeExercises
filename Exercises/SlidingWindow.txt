@@ -1,0 +1,83 @@
+﻿Examples, Articles, Videos
+1. https://www.geeksforgeeks.org/window-sliding-technique/
+https://itnext.io/sliding-window-algorithm-technique-6001d5fbe8b3
+https://levelup.gitconnected.com/understanding-the-sliding-window-technique-in-algorithms-c6c3bf8226da
+https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples
+https://www.youtube.com/watch?v=jM2dhDPYMQM
+https://www.youtube.com/watch?v=MK-NZ4hN7rs
+https://www.youtube.com/watch?v=p-ss2JNynmw
+https://favtutor.com/blogs/sliding-window-algorithm
+https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Technique-and-Question-Bank
+https://www.techiedelight.com/sliding-window-problems/
+https://www.codingninjas.com/codestudio/library/sliding-window
+
+20 Problems 
+1. Given an array of integers of size ‘n’, Our aim is to calculate the maximum sum of ‘k’ consecutive elements in the array.
+
+https://medium.com/techie-delight/top-problems-on-sliding-window-technique-8e63f1e2b1fa
+https://quanticdev.com/algorithms/dynamic-programming/sliding-window/#easy-statically-sized-sliding-window-given-an-array-of-integers-find-maximumminimum-sum-subarray-of-a-given-size
+
+1. https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/
+2. https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/
+3. https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
+4. https://leetcode.com/problems/max-consecutive-ones-iii/
+5. https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+6. https://leetcode.com/problems/longest-nice-substring/description/
+7. https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
+8. https://leetcode.com/problems/count-number-of-nice-subarrays/
+9. https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+10. https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+11. https://leetcode.com/problems/maximum-erasure-value/
+12. https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+13. https://leetcode.com/problems/find-the-k-beauty-of-a-number/
+14. https://leetcode.com/problems/grumpy-bookstore-owner/
+15. 💪 https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discussion/
+16. https://leetcode.com/problems/longest-repeating-character-replacement/
+17. https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/
+18. https://leetcode.com/problems/find-all-anagrams-in-a-string/
+19. https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+20. https://leetcode.com/problems/binary-subarrays-with-sum/
+21. https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/
+22. https://leetcode.com/problems/longest-nice-subarray/
+23. https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/
+24. https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+25. https://leetcode.com/problems/get-equal-substrings-within-budget/
+26. https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
+27. https://leetcode.com/problems/subarrays-with-k-different-integers/
+28. https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+29. 💪 https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+
+
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k-using-stack-in-on-time/?ref=rp
+https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/?ref=rp
+https://www.geeksforgeeks.org/sliding-window-maximum-set-2/?ref=rp
+https://www.geeksforgeeks.org/median-of-sliding-window-in-an-array/?ref=rp
+https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k-using-set-in-cpp-stl/?ref=rp
+https://www.geeksforgeeks.org/median-of-sliding-window-in-an-array/?ref=rp
+https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/?ref=rp
+https://www.geeksforgeeks.org/median-of-sliding-window-in-an-array-set-2/?ref=rp
+https://www.geeksforgeeks.org/find-four-numbers-with-sum-equal-to-given-sum/
+https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+
+Others
+
+https://www.geeksforgeeks.org/maximum-subarray-size-subarrays-size-sum-less-k/?ref=rp
+https://www.geeksforgeeks.org/maximum-possible-sum-window-array-elements-window-array-unique/?ref=rp
+https://www.geeksforgeeks.org/split-array-into-k-subarrays-such-that-sum-of-maximum-of-all-subarrays-is-maximized/?ref=rp
+https://www.geeksforgeeks.org/find-maximum-in-stack-in-o1-without-using-additional-stack/?ref=rp
+https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k-using-segment-tree/?ref=rp
+https://www.geeksforgeeks.org/maximum-possible-sum-window-array-elements-window-array-unique/?ref=rp
+https://www.geeksforgeeks.org/improving-linear-search-technique/?ref=rp
+https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/
+https://www.geeksforgeeks.org/given-sorted-array-number-x-find-pair-array-whose-sum-closest-x/
+
+Two Pointer
+https://www.geeksforgeeks.org/two-pointers-technique/
+https://www.geeksforgeeks.org/move-all-zeroes-to-end-of-array-using-two-pointers/?ref=rp
+https://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form/?ref=rp
+https://www.geeksforgeeks.org/cpp-program-for-two-pointers-technique/?ref=rp
+https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+https://www.geeksforgeeks.org/find-triplet-sum-two-equals-third-element/
+https://leetcode.com/tag/two-pointers/
+

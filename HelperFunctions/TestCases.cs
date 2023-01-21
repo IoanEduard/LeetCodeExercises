@@ -157,11 +157,150 @@ namespace HelperFunctions
             new int[] { 2,3,1 },
         };
 
-        public static int[][] CheckValid_TestCase1 = new int[][] {
-            new int[] { 1,2,3 },
-            new int[] { 3,1,2 },
-            new int[] { 2,3,1 },
+        public static int[][] CheckValid_TestCase2 = new int[][] {
+            new int[] { 1,1,1 },
+            new int[] { 1,2,2 },
+            new int[] { 1,3,3 },
         };
+
+        public static int[][] CheckValid_TestCase3 = new int[][] {
+            new int[] { 2,2,2 },
+            new int[] { 2,2,2 },
+            new int[] { 2,2,2 },
+        };
+
+        public static int[][] FlipAndInvertImage_TestCase1 = new int[][] {
+            new int[] { 1,1,0 },
+            new int[] { 1,0,1 },
+            new int[] { 0,0,0 },
+        };
+
+        public static int[][] FlipAndInvertImage_TestCase2 = new int[][] {
+            new int[] { 1,1,0,0 },
+            new int[] { 1,0,0,1 },
+            new int[] { 0,1,1,1 },
+            new int[] { 1,0,1,0 },
+        };
+
+        public static int[][] MaximumWealth_TestCase1 = new int[][] {
+            new int[] { 1,2,3 },
+            new int[] { 3,2,1 },
+        };
+
+        public static int[][] MaximumWealth_TestCase2 = new int[][] {
+            new int[] { 1,5 },
+            new int[] { 7,3 },
+            new int[] { 3,5 },
+        };
+
+        public static int[][] MaximumWealth_TestCase3 = new int[][] {
+            new int[] { 2,8,7 },
+            new int[] { 7,1,3 },
+            new int[] { 1,9,5 },
+        };
+
+        public static int[][] KWeakestRows_TestCase1 = new int[][] {
+            new int[] { 1,1,0,0,0},
+            new int[] { 1,1,1,1,0 },
+            new int[] { 1,0,0,0,0 },
+            new int[] { 1,1,0,0,0},
+            new int[] { 1,1,1,1,1 },
+        };
+
+        public static int[][] KWeakestRows_TestCase2 = new int[][] {
+            new int[] { 1,0,0,0},
+            new int[] { 1,1,1,1 },
+            new int[] { 1,0,0,0 },
+            new int[] { 1,0,0,0},
+        };
+
+        public static int[][] KWeakestRows_TestCase3 = new int[][] {
+            new int[] { 1,1,1,1,1,1},
+            new int[] { 1,1,1,1,1,1},
+            new int[] {1,1,1,1,1,1 }
+        };
+
+        public static int[] FindLucky_TestCase1 = new int[] { 2, 2, 3, 4 };
+        public static int[] FindLucky_TestCase2 = new int[] { 1, 2, 2, 3, 3, 3 };
+        public static int[] FindLucky_TestCase3 = new int[] { 2, 2, 2, 3, 3 };
+
+        public static int[][] IsToeplitzMatrix_TestCase1 = new int[][] {
+            new int[] { 1,2,3,4 },
+            new int[] { 5,1,2,3 },
+            new int[] { 9, 5, 1, 2 }
+        };
+
+        public static int[][] IsToeplitzMatrix_TestCase2 = new int[][] {
+            new int[] { 1,2 },
+            new int[] {2,2 },
+        };
+
+        public static int[][] Transpose_TestCase1 = new int[][] {
+            new int[] { 1,2,3 },
+            new int[] {4,5,6 },
+            new int[] {7,8,9 },
+        };
+
+        public static int[][] Transpose_TestCase2 = new int[][] {
+            new int[] { 1,2,3 },
+            new int[] {4,5,6 },
+        };
+
+        public static int[] Construct2DArray_TestCase1 = new int[] { 1, 2, 3, 4 };
+        public static int[] Construct2DArray_TestCase2 = new int[] { 1, 2, 3 };
+        public static int[] Construct2DArray_TestCase3 = new int[] { 1, 2 };
+
+        public static int[] BuildArray_TestCase1 = new int[] { 0, 2, 1, 5, 3, 4 };
+        public static int[] BuildArray_TestCase2 = new int[] { 5, 0, 1, 2, 3, 4 };
+
+        public static int[] GetConcatenation_TestCase1 = new int[] { 1, 2, 1 };
+        public static int[] GetConcatenation_TestCase2 = new int[] { 1, 3, 2, 1 };
+
+        public static string[] FinalValueAfterOperations_TestCase1 = new string[] { "--X", "X++", "X++" };
+        public static string[] FinalValueAfterOperations_TestCase2 = new string[] { "++X", "++X", "X++" };
+
+        public static int[] Shuffle_TestCase1 = new int[] { 2, 5, 1, 3, 4, 7 };
+        public static int[] Shuffle_TestCase2 = new int[] { 1, 2, 3, 4, 4, 3, 2, 1 };
+
+        public static int[] SmallerNumbersThanCurrent_TestCase1 = new int[] { 8, 1, 2, 2, 3 };
+        public static int[] SmallerNumbersThanCurrent_TestCase2 = new int[] { 6, 5, 4, 8 };
+
+        public static int[] CreateTargetArray_TestCase1_param1 = new int[] { 0, 1, 2, 2, 1 };
+        public static int[] CreateTargetArray_TestCase1_param2 = new int[] { 0, 1, 2, 3, 4 };
+
+        public static int[] CreateTargetArray_TestCase2_param1 = new int[] { 1, 2, 3, 4, 0 };
+        public static int[] CreateTargetArray_TestCase2_param2 = new int[] { 0, 1, 2, 3, 0 };
+
+        public static int[] DecompressRLElist_TestCase1 = new int[] { 1, 2, 3, 4 };
+        public static int[] DecompressRLElist_TestCase2 = new int[] { 1, 1, 2, 3 };
+
+        public static string RestoreString_TestCase1_param1 = "codeleet";
+        public static int[] RestoreString_TestCase1_param2 = new int[] { 4, 5, 6, 7, 0, 2, 1, 3 };
+
+        public static string[] MaximumValue_TestCase1 = new string[] { "alic3", "bob", "3", "4", "00000" };
+        public static string[] MaximumValue_TestCase2 = new string[] { "1", "01", "001", "0001" };
+
+        public static string[][] CountMatches_TestCase1_param1 = new string[][] {
+            new string[] { "phone","blue","pixel" },
+            new string[] { "computer","silver","lenovo" },
+            new string[] { "phone", "gold", "iphone" }
+        };
+        public static string CountMatches_TestCase1_param2 = "color";
+        public static string CountMatches_TestCase1_param3 = "silver";
+
+        public static int[] SumOfConsecutiveNumbers_TestCase1_param1 = new int[] { 100, 200, 300, 400 };
+        public static int SumOfConsecutiveNumbers_TestCase1_param2 = 2;
+
+        public static int[] SumOfConsecutiveNumbers_TestCase2_param1 = new int[] { 1, 4, 2, 10, 23, 3, 1, 0, 20 };
+        public static int SumOfConsecutiveNumbers_TestCase2_param2 = 4;
+
+        public static string TruncateSentence_TestCases1 = "Hello how are you Contestant";
+
+        public static string[] CountConsistentStrings_TestCase1 = new string[] { "ad", "bd", "aaab", "baa", "badab" };
+        public static string[] CountConsistentStrings_TestCase2 = new string[] { "a", "b", "c", "ab", "ac", "bc", "abc" };
+        public static string[] CountConsistentStrings_TestCase3 = new string[] { "cc", "acd", "b", "ba", "bac", "bad", "ac", "d" };
+
+
     }
 }
 

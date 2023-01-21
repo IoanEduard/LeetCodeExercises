@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Code\Observer Pattern\Example Two\" />
+  </ItemGroup>
+
 </Project>

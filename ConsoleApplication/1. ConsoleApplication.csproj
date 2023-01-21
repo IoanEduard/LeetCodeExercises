@@ -1,11 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
     <ProjectReference Include="..\Exercises\2. Exercises.csproj" />
     <ProjectReference Include="..\HelperFunctions\_HelperFunctions.csproj" />
     <ProjectReference Include="..\Data-Structures\Data-Structures.csproj" />
     <ProjectReference Include="..\OOP\OOP.csproj" />
     <ProjectReference Include="..\Resources\z_Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="RawTestcases.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <PropertyGroup>

@@ -1,0 +1,50 @@
+﻿Introduction:
+
+Basic DesignPatterns
+Page 18
+Abstract Factory 
+	Provide an interface for creating families of related or dependent
+		objects without specifying their concrete classes. 
+Adapter 
+	Provide an interface for creating families of related or dependent
+		objects without specifying their concrete classes. 
+Composite
+	Compose objects into tree structures to represent part-whole
+		hierarchies. Composite lets clients treat individual objects and
+		compositions of objects uniformly. 
+Decorator
+	Attach additional responsibilities to an object dynamically. Decorators
+		provide a flexible alternative to subclassing for extending functionality. 
+Factory Method
+	Define an interface for creating an object, but let subclasses decide
+		which class to instantiate. Factory Method lets a class defer instantiation to subclasses. 
+Observer
+	Define a one-to-many dependency between objects so that when one object
+		changes state, all its dependents are notified and updated automatically.
+Strategy
+	Define a family of algorithms, encapsulate each one, and make them
+		interchangeable. Strategy lets the algorithm vary independently from
+		clients that use it. 
+Template Method
+	Define the skeleton of an algorithm in an operation, deferring some
+		steps to subclasses. Template Method lets subclasses redefine certain steps
+		of an algorithm without changing the algorithm's structure. 
+
+Page 14:
+The Model/View/Controller (MVC) triad of classes [KP88] is used to build user
+interfaces in Smalltalk-80. Looking at the design patterns inside MVC should help
+you see what we mean by the term "pattern."
+
+MVC consists of three kinds of objects. The Model is the application object, the
+View is its screen presentation, and the Controller defines the way the user
+interface reacts to user input. Before MVC, user interface designs tended to lump
+these objects together. MVC decouples them to increase flexibility and reuse.
+MVC decouples views and models by establishing a subscribe/notify protocol between
+them. A view must ensure that its appearance reflects the state of the model.
+
+Whenever the model's data changes, the model notifies views that depend on it.
+In response, each view gets an opportunity to update itself. This approach lets
+you attach multiple views to a model to provide different presentations. You can
+also create new views for a model without rewriting it. 
+
+Bookmark at page 46
